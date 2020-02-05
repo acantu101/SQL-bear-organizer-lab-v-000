@@ -43,5 +43,5 @@ end
 def selects_bear_that_killed_Tim
   "SELECT *
   FROM bears
-  WHERE name LIKE nil;"
+  WHERE name = nil;"
 end
