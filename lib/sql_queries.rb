@@ -34,7 +34,7 @@ def selects_most_prominent_color_and_returns_with_count
 end
 
 def counts_number_of_bears_with_goofy_temperaments
-  "SELECT COUNT(bears)
+  "SELECT COUNT(name)
   FROM bears
   WHERE temperament = 'goofy';"
 end
