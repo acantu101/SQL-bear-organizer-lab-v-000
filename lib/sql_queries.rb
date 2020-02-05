@@ -28,7 +28,7 @@ def select_youngest_bear_and_returns_name_and_age
 end
 
 def selects_most_prominent_color_and_returns_with_count
-  "SELECT COUNT(bears.color),
+  "SELECT COUNT(bears.color)
   FROM bears
   GROUP BY bears.color;
 "
