@@ -28,7 +28,7 @@ def select_youngest_bear_and_returns_name_and_age
 end
 
 def selects_most_prominent_color_and_returns_with_count
-  "SELECT MAX(color), COUNT(color)
+  "SELECT MAX(color), COUNT(MAX(color))
   FROM bears
   ORDER BY COUNT(*) DESC LIMIT 1
 ;"
@@ -42,6 +42,6 @@ end
 
 def selects_bear_that_killed_Tim
   "SELECT *
-  FROM bears
+  FROM bear
   WHERE name = NULL;"
 end
