@@ -29,7 +29,7 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   "SELECT MAX(color) as prominent_color, COUNT(*)
-  FROM bears;"
+  FROM bears;
 "
 end
 
